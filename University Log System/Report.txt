@@ -1,0 +1,20 @@
+- university_array[3] invokes evaluate_student(const Student &student), student3 passed to the function with pass by reference.
+- In evaluate_student, student3.applicate_to_uni() gets invoked.
+
+- get_gpa() is invoked by student3
+- get_gpa_weight() is invoked by university_array[3]
+- get_gre() is invoked by student3
+- get_gre_weight() is invoked by university_array[3]
+- get_toefl() is invoked by student3
+- get_toefl_weight() is invoked by university_array[3]
+- get_bias() is invoked by university_array[3]
+
+- get_name() is invoked by student3
+- get_uni_name() is invoked by university_array[3]
+
+- get_name() is invoked by student3
+- get_uni_name() is invoked by university_array[3]
+
+- evaluate_student returns
+- student4 invokes Student::~Student()
+- At the end of the program, destructors of all objects are invoked automatically.
