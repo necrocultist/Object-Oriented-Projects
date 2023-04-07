@@ -28,11 +28,7 @@ class Student {
         void apply_to_uni() const;
      
         // inline setters
-        void set_gpa(float gpa) { m_gpa = gpa; };
-        void set_gre(int gre) { m_gre = gre; };
-        void set_toefl(int toefl) { m_toefl = toefl; };
         void set_name(string name) { m_name = name; };
-        void set_num_of_app(unsigned int num_of_app) { m_num_of_app = num_of_app; };
         
         // inline getters
         string get_name() const { return m_name; };

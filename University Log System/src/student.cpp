@@ -13,28 +13,28 @@ using namespace std;
 
 // default constructor to initalize with empty values
 Student::Student() {
-    set_name("");
-    set_gpa(0);
-    set_gre(0);
-    set_toefl(0);
+    m_name = "";
+    m_gpa = 0;
+    m_gre = 0;
+    m_toefl = 0;
 }
 
 // constructor with args for name, gpa, gre, toefl
 Student::Student(string name, float gpa, int gre, int toefl) {
-    set_name(name);
-    set_gpa(gpa);
-    set_gre(gre);
-    set_toefl(toefl);
+    m_name = name;
+    m_gpa = gpa;
+    m_gre = gre;
+    m_toefl = toefl;
     print_log();
 }
 
 // copy constructor
 Student::Student(const Student &student) {
-    set_name(student.get_name());
-    set_gpa(student.get_gpa());
-    set_gre(student.get_gre());
-    set_toefl(student.get_toefl());
-    set_num_of_app(student.get_num_of_app());
+    m_name = student.get_name();
+    m_gpa = student.get_gpa();
+    m_gre = student.get_gre();
+    m_toefl = student.get_toefl();
+    m_num_of_app = student.get_num_of_app();
     print_log();
 }
 

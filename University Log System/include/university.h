@@ -21,28 +21,20 @@ class University {
         University(const University &);
 
         // inline getters
-        string get_uni_name() const { return m_uni_name; };
-        string get_uni_country() const { return m_uni_country; };
+        string get_uni_name() const { return m_name; };
+        string get_uni_country() const { return m_country; };
         float get_gpa_weight() const { return m_gpa_weight; };
         float get_gre_weight() const { return m_gre_weight; };
         float get_toefl_weight() const { return m_toefl_weight; };
         float get_bias() const { return m_bias;};
-
-        // inline setters
-        void set_uni_name(string uni_name) { m_uni_name = uni_name; };
-        void set_uni_country(string uni_country) { m_uni_country = uni_country; };
-        void set_gpa_weight(float gpa_weight) { m_gpa_weight = gpa_weight; };
-        void set_gre_weight(float gre_weight) { m_gre_weight = gre_weight; };
-        void set_toefl_weight(float toefl_weight) { m_toefl_weight = toefl_weight; };
-        void set_bias(float bias) { m_bias = bias;};
 
         // to evaluate overall student score and admit or reject based on the score using perceptron
         void evaluate_student(const Student &);
 
     private:
         // fields of student class
-        string m_uni_name = "";
-        string m_uni_country = "";
+        string m_name = "";
+        string m_country = "";
         float m_gpa_weight = 0;
         float m_gre_weight = 0;
         float m_toefl_weight = 0;
