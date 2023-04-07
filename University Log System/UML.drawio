@@ -1,0 +1,52 @@
+<mxfile host="Electron" modified="2023-04-06T23:57:47.974Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/21.1.2 Chrome/106.0.5249.199 Electron/21.4.3 Safari/537.36" etag="h8wHDn9gQzfa7LawfIEh" version="21.1.2" type="device">
+  <diagram name="Page-1" id="9v8eaEepo1ThbnCiLihK">
+    <mxGraphModel dx="844" dy="492" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="xWb8U3_kkPu5lq7WfCm0-8" value="Student" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="160" y="450" width="170" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="xWb8U3_kkPu5lq7WfCm0-9" value="&amp;lt;&amp;lt;get/set&amp;gt;&amp;gt; - name: string&lt;br&gt;&amp;lt;&amp;lt;get&amp;gt;&amp;gt;&amp;nbsp;- gpa: float&lt;br&gt;&amp;lt;&amp;lt;get&amp;gt;&amp;gt;&amp;nbsp;- gre: int&lt;br&gt;&amp;lt;&amp;lt;get&amp;gt;&amp;gt;&amp;nbsp;- toefl: int&lt;br&gt;&amp;lt;&amp;lt;get&amp;gt;&amp;gt;&amp;nbsp;- num_of_apps: int" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="xWb8U3_kkPu5lq7WfCm0-8">
+          <mxGeometry y="26" width="170" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="xWb8U3_kkPu5lq7WfCm0-10" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="xWb8U3_kkPu5lq7WfCm0-8">
+          <mxGeometry y="106" width="170" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="xWb8U3_kkPu5lq7WfCm0-11" value="+ Student()&lt;br&gt;+ Student(Student)&lt;br&gt;+Student(string, float,int, int)&lt;br&gt;+ print_log(): void&lt;br&gt;+ apply_to_uni(): void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="xWb8U3_kkPu5lq7WfCm0-8">
+          <mxGeometry y="114" width="170" height="86" as="geometry" />
+        </mxCell>
+        <mxCell id="xWb8U3_kkPu5lq7WfCm0-16" value="University&lt;br&gt;" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="500" y="450" width="200" height="200" as="geometry">
+            <mxRectangle x="430" y="200" width="100" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xWb8U3_kkPu5lq7WfCm0-17" value="&amp;lt;&amp;lt;get&amp;gt;&amp;gt; - name: string&lt;br&gt;&amp;lt;&amp;lt;get&amp;gt;&amp;gt; - country: string&lt;br&gt;&amp;lt;&amp;lt;get&amp;gt;&amp;gt;&amp;nbsp;- gpa_weight: float&lt;br&gt;&amp;lt;&amp;lt;get&amp;gt;&amp;gt;&amp;nbsp;- gre_weight: float&lt;br&gt;&amp;lt;&amp;lt;get&amp;gt;&amp;gt;&amp;nbsp;- toefl_weight: float&lt;br&gt;&amp;lt;&amp;lt;get&amp;gt;&amp;gt;&amp;nbsp;- bias: float" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="xWb8U3_kkPu5lq7WfCm0-16">
+          <mxGeometry y="26" width="200" height="94" as="geometry" />
+        </mxCell>
+        <mxCell id="xWb8U3_kkPu5lq7WfCm0-18" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="xWb8U3_kkPu5lq7WfCm0-16">
+          <mxGeometry y="120" width="200" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="xWb8U3_kkPu5lq7WfCm0-19" value="+ University()&lt;br&gt;+ University(string, float, float, float, string):&lt;br&gt;+ evaluate_student(Student): void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="xWb8U3_kkPu5lq7WfCm0-16">
+          <mxGeometry y="128" width="200" height="72" as="geometry" />
+        </mxCell>
+        <mxCell id="xWb8U3_kkPu5lq7WfCm0-25" value="Evaluate" style="endArrow=open;html=1;endSize=12;startArrow=diamondThin;startSize=14;startFill=0;edgeStyle=orthogonalEdgeStyle;rounded=0;" edge="1" parent="1" source="xWb8U3_kkPu5lq7WfCm0-16" target="xWb8U3_kkPu5lq7WfCm0-8">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="320" y="580" as="sourcePoint" />
+            <mxPoint x="480" y="580" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xWb8U3_kkPu5lq7WfCm0-26" value="1" style="edgeLabel;resizable=0;html=1;align=left;verticalAlign=top;" connectable="0" vertex="1" parent="xWb8U3_kkPu5lq7WfCm0-25">
+          <mxGeometry x="-1" relative="1" as="geometry">
+            <mxPoint x="-20" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xWb8U3_kkPu5lq7WfCm0-27" value="1..*" style="edgeLabel;resizable=0;html=1;align=right;verticalAlign=top;" connectable="0" vertex="1" parent="xWb8U3_kkPu5lq7WfCm0-25">
+          <mxGeometry x="1" relative="1" as="geometry">
+            <mxPoint x="30" as="offset" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
