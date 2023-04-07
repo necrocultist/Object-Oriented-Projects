@@ -1,6 +1,3 @@
-/* * * * * * * * * * * * * * * * * * * * * * * * *
-* PLEASE DO NOT CHANGE ANYTHING UNLESS REQUESTED *
-* * * * * * * * * * * * * * * * * * * * * * * * * */
 /* @Author
  * Student Name:  Kaan Karataş
  * Student ID : 150200081
