@@ -1,0 +1,127 @@
+<mxfile host="Electron" modified="2023-05-12T17:33:38.008Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/21.1.2 Chrome/106.0.5249.199 Electron/21.4.3 Safari/537.36" etag="C5Zp5cCaoewBrd6NP6jk" version="21.1.2" type="device">
+  <diagram name="Page-1" id="9v8eaEepo1ThbnCiLihK">
+    <mxGraphModel dx="1493" dy="863" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="ks8WixvHSKatfLKSuFsY-1" value="Pokemon&lt;br&gt;" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="266.5" y="100" width="303" height="300" as="geometry">
+            <mxRectangle x="345" y="507" width="100" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ks8WixvHSKatfLKSuFsY-2" value="- m_name : string&lt;span style=&quot;white-space: pre;&quot;&gt;	&lt;/span&gt;&amp;lt;&amp;lt;get&amp;gt;&amp;gt;&lt;br&gt;- m_hp: int&lt;span style=&quot;white-space: pre;&quot;&gt;	&lt;/span&gt;&amp;lt;&amp;lt;get&amp;gt;&amp;gt;&lt;br&gt;&lt;br&gt;# damage: int&lt;br&gt;# powerUpChance: unsigned int&lt;br&gt;# rechargeDuration: unsigned int&lt;br&gt;# powerUpCount: unsigned int&lt;br&gt;# isPoweredUp: bool&lt;br&gt;# isPowerVisible: bool&lt;span style=&quot;white-space: pre;&quot;&gt;	&lt;/span&gt;&amp;lt;&amp;lt;get&amp;gt;&amp;gt;&lt;br&gt;# isOwnTerrain: bool&lt;span style=&quot;white-space: pre;&quot;&gt;	&lt;/span&gt;&amp;lt;&amp;lt;set&amp;gt;&amp;gt;&lt;br&gt;# isFainted: bool" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="ks8WixvHSKatfLKSuFsY-1" vertex="1">
+          <mxGeometry y="26" width="303" height="174" as="geometry" />
+        </mxCell>
+        <mxCell id="ks8WixvHSKatfLKSuFsY-3" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" parent="ks8WixvHSKatfLKSuFsY-1" vertex="1">
+          <mxGeometry y="200" width="303" height="10" as="geometry" />
+        </mxCell>
+        <mxCell id="YZwIec-pjuYSJp9ELV4z-4" value="+ Pokemon(string, int, int, unsigned int, unsigned int)&lt;br&gt;+ takeDamage(int): void&lt;br&gt;+ turnOffPowerUpVisibility(): void&lt;br&gt;&lt;br&gt;# attemptPowerUp" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="ks8WixvHSKatfLKSuFsY-1" vertex="1">
+          <mxGeometry y="210" width="303" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="ks8WixvHSKatfLKSuFsY-11" value="ElectricPokemon" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="553" y="457" width="240" height="130" as="geometry">
+            <mxRectangle x="345" y="507" width="100" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ks8WixvHSKatfLKSuFsY-12" value="- m_isConfused: bool&lt;span style=&quot;white-space: pre;&quot;&gt;	&lt;/span&gt;&amp;lt;&amp;lt;get&amp;gt;&amp;gt;&lt;br&gt;- m_confusionCount: int" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="ks8WixvHSKatfLKSuFsY-11" vertex="1">
+          <mxGeometry y="26" width="240" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="ks8WixvHSKatfLKSuFsY-13" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" parent="ks8WixvHSKatfLKSuFsY-11" vertex="1">
+          <mxGeometry y="60" width="240" height="10" as="geometry" />
+        </mxCell>
+        <mxCell id="YZwIec-pjuYSJp9ELV4z-6" value="+ ElectricPokemon(string, int, int)&lt;br&gt;+ attack(): int&lt;br&gt;+ confuse(): void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="ks8WixvHSKatfLKSuFsY-11" vertex="1">
+          <mxGeometry y="70" width="240" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ks8WixvHSKatfLKSuFsY-18" value="PsychicPokemon" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="33" y="470" width="230" height="104" as="geometry">
+            <mxRectangle x="50" y="380" width="100" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ks8WixvHSKatfLKSuFsY-19" value="- m_canConfuse: bool&lt;span style=&quot;white-space: pre;&quot;&gt;	&lt;/span&gt;&amp;lt;&amp;lt;get/set&amp;gt;&amp;gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="ks8WixvHSKatfLKSuFsY-18" vertex="1">
+          <mxGeometry y="26" width="230" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="ks8WixvHSKatfLKSuFsY-20" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" parent="ks8WixvHSKatfLKSuFsY-18" vertex="1">
+          <mxGeometry y="50" width="230" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="YZwIec-pjuYSJp9ELV4z-5" value="+&amp;nbsp;PsychicPokemon(string, int, int)&lt;br&gt;+ attack(): int" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="ks8WixvHSKatfLKSuFsY-18" vertex="1">
+          <mxGeometry y="58" width="230" height="46" as="geometry" />
+        </mxCell>
+        <mxCell id="6V-zqw1KsqIDwnx7Ta-O-1" value="Arena" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="298" y="660" width="240" height="290" as="geometry">
+            <mxRectangle x="650" y="340" width="100" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6V-zqw1KsqIDwnx7Ta-O-2" value="- m_terrain: string&lt;br&gt;- mp_electricPokemon : ElectricPokemon *&lt;br&gt;- mp_psychicPokemon: PsychicPokemon *" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="6V-zqw1KsqIDwnx7Ta-O-1" vertex="1">
+          <mxGeometry y="26" width="240" height="64" as="geometry" />
+        </mxCell>
+        <mxCell id="6V-zqw1KsqIDwnx7Ta-O-3" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" parent="6V-zqw1KsqIDwnx7Ta-O-1" vertex="1">
+          <mxGeometry y="90" width="240" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="6V-zqw1KsqIDwnx7Ta-O-4" value="+ ~Arena()&lt;br&gt;+ addPokemon(char, string, int, int): void&lt;br&gt;+ simulateBattle(): void&lt;br&gt;&lt;br&gt;- controlTerrain(int&amp;amp;): void&lt;br&gt;- spawnTerrain(int): void&lt;br&gt;- restartTerrain(): void&lt;br&gt;- informPokemons(): void&lt;br&gt;- duelPokemons(int): void&lt;br&gt;- printRoundStats(int, int): void&lt;br&gt;- checkPowerUp(): void&lt;br&gt;- printMatchResults(): void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="6V-zqw1KsqIDwnx7Ta-O-1" vertex="1">
+          <mxGeometry y="98" width="240" height="192" as="geometry" />
+        </mxCell>
+        <mxCell id="rj0BFKRZ4TMSseo8kanb-17" value="Arena class holds Electric Pokemon and Psychic Pokemon object pointers. Electric Pokemon and Psychic Pokemondo not get initialized with Arena, &lt;br&gt;they rather get hold as object pointers by Arena. Because of the specified situations, their lifetimes are not connected. Thus, there is an aggregation &lt;br&gt;relationship between Arena and Electric Pokemon, Psychic Pokemon resulting in an attribute visibility. Electric Pokemon and Psychic Pokemon&lt;br&gt;are inherited from the class, Pokemon. Pokemon is the base class, Electric Pokemon and Psychic Pokemon are derived child classes." style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="13" y="1010" width="810" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="Lc3aRmXJ2dJp74pPI1J--21" value="Kaan Karataş&lt;br&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;150200081&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="700" y="30" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="YZwIec-pjuYSJp9ELV4z-1" value="" style="endArrow=block;endFill=0;endSize=12;html=1;rounded=0;strokeWidth=1;" parent="1" source="ks8WixvHSKatfLKSuFsY-18" target="ks8WixvHSKatfLKSuFsY-1" edge="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="183" y="130" as="sourcePoint" />
+            <mxPoint x="343" y="130" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YZwIec-pjuYSJp9ELV4z-2" value="" style="endArrow=block;endFill=0;endSize=12;html=1;rounded=0;" parent="1" source="ks8WixvHSKatfLKSuFsY-11" target="ks8WixvHSKatfLKSuFsY-1" edge="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="593" y="280" as="sourcePoint" />
+            <mxPoint x="713" y="280" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0gjE5JJALzRfJtccozwh-2" value="" style="endArrow=diamondThin;endFill=0;endSize=24;html=1;rounded=0;" parent="1" source="ks8WixvHSKatfLKSuFsY-18" target="6V-zqw1KsqIDwnx7Ta-O-1" edge="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="183" y="470" as="sourcePoint" />
+            <mxPoint x="273" y="515" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0gjE5JJALzRfJtccozwh-5" value="0..1" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=none;" parent="0gjE5JJALzRfJtccozwh-2" vertex="1" connectable="0">
+          <mxGeometry x="-0.5713" relative="1" as="geometry">
+            <mxPoint x="-34" y="-8" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0gjE5JJALzRfJtccozwh-7" value="*" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=none;" parent="0gjE5JJALzRfJtccozwh-2" vertex="1" connectable="0">
+          <mxGeometry x="0.5949" y="5" relative="1" as="geometry">
+            <mxPoint x="-15" y="18" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BshMh_wwx-X5FTVHvF_K-1" value="mp_psychicPokemon" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=none;" vertex="1" connectable="0" parent="0gjE5JJALzRfJtccozwh-2">
+          <mxGeometry x="-0.1977" y="-1" relative="1" as="geometry">
+            <mxPoint x="-48" y="14" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0gjE5JJALzRfJtccozwh-3" value="" style="endArrow=diamondThin;endFill=0;endSize=24;html=1;rounded=0;" parent="1" source="ks8WixvHSKatfLKSuFsY-11" target="6V-zqw1KsqIDwnx7Ta-O-1" edge="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="213" y="438" as="sourcePoint" />
+            <mxPoint x="308" y="472" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0gjE5JJALzRfJtccozwh-4" value="0..1" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=none;" parent="0gjE5JJALzRfJtccozwh-3" vertex="1" connectable="0">
+          <mxGeometry x="-0.4799" y="1" relative="1" as="geometry">
+            <mxPoint x="23" y="-9" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0gjE5JJALzRfJtccozwh-6" value="*" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=none;" parent="0gjE5JJALzRfJtccozwh-3" vertex="1" connectable="0">
+          <mxGeometry x="0.656" y="-6" relative="1" as="geometry">
+            <mxPoint x="16" y="15" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BshMh_wwx-X5FTVHvF_K-2" value="mp_electricPokemon" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=none;" vertex="1" connectable="0" parent="0gjE5JJALzRfJtccozwh-3">
+          <mxGeometry x="-0.1513" y="1" relative="1" as="geometry">
+            <mxPoint x="68" y="7" as="offset" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
